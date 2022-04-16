@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="utf-8">
+        <title>cynicals links</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="links">
+        <meta property="og:title" content="wasd - gang">
+        <meta property="og:description" content="kys nerddd">
+        <meta property="og:url" content=""/>
+         <meta property="og:image" content="https://i.imgur.com/QepYmwt.png">
+        <meta name="theme-color" content="#0ced13">
+        <link rel="stylesheet" href="main.css">
+         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    </head>
+    <body>
+        <main>
+            <script>
+                function audioPlay() {
+                    var audio = document.getElementById("audio");
+                    audio.volume = 0.1;
+                    audio.play()
+                }
+                function videoPlay() {
+                    var video = document.getElementById("video");
+                    video.play()
+                }
+            </script>
+            <input type="checkbox" autocomplete="off" id="overlay-toggle">
+            <div class="overlay fullscreen">
+                <label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+                    <span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+                    <span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span>
+                </label>
+            </div>
+            <audio loop preload="auto" id="audio">
+                <source src="song.mp3" type="audio/mp3">
+            </audio>
+            <video muted loop playsinline preload="auto" class="fullscreen bg-video" id="video">
+                <source src="Crescent Moon - 27186.mp4" type="video/mp4">
+            </video>
+            <section class="fullscreen text-content">
+                <h1 style="font-family: derk; text-shadow: 0 0 0.40em #bababa;">Links</h1>
+                <dd>‎</dd>
+                <a href="https://www.youtube.com/c/pcptab" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">youtube</a>
+                <a href="https://twitter.com/pcptab" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">twitter</a>
+                <a href="https://steamcommunity.com/id/ecni/" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">steam</a>
+                <a href="https://steamcommunity.com/groups/skidcrew" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">steam group</a>
+                <a href="" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">c@cope.wtf</a>
+                <a href="" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">cynical@crime.su</a>
+                <a href="" style="text-decoration:none; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;">cynical@fbi.ac</a>
+                <div class="back">
+                    <a href="" style="text-decoration: none; width: 100%; text-align: center; font-family: mono; font-size: 1.1em; text-shadow: 0 0 0.40em #bababa;"><u></u></a>
+                </div>
+            </section>
+            <div style="position: relative">
+                <p style="position: fixed; bottom: 0; width:100%; text-align: center; font-family: mono; color: white; text-shadow: 0 0 0.40em #bababa;">Space Cadet - Sugadaisy </p>
+            </div>
+        </main>
+    </body>
